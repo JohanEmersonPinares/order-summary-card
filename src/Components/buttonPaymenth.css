@@ -1,0 +1,20 @@
+.payment-button {
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: hsl(245, 75%, 60%);
+}
+
+.payment-button:active {
+  background-color: hsl(245, 75%, 45%);
+}

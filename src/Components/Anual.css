@@ -1,0 +1,57 @@
+.annual-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px; }
+
+.icon-container {
+  flex: 1;
+  text-align: center;
+}
+
+.card-image {
+  max-width: auto;
+  height: auto;
+}
+
+.text-container {
+  flex: 2;
+  text-align: center;
+}
+
+.annual-title, .annual-price {
+  margin: 10px 0;
+}
+
+.annual {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.annual-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.button-container {
+  flex: 1;
+  text-align: center;
+}
+
+.change-button {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: color 0.3s ease;
+  margin-left: 25%;
+}
+
+.change-button:hover {
+  color: black;
+}

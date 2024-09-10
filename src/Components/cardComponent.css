@@ -1,0 +1,51 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(./assets/pattern-background-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.card-text {
+  font-size: 16px;
+  padding: 0 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-details {
+  margin: 20px 0;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
