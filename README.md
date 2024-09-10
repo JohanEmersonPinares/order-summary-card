@@ -28,9 +28,10 @@ Users should be able to:
 
 ### Screenshot
 DESKTOP
-![](./assets/desktop.png)
+![](./src/assets/desktop.png)
 MOBILE
-![](./assets/Mobile.png)
+![](./src/assets/Mobile.png)
+
 
 
 ## My process
